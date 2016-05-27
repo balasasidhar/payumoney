@@ -31,5 +31,6 @@ public class PayUMoney_Constants {
     public static final String UDF5 = "udf5";
     public static final String HASH = "hash";
     public static final String SERVICE_PROVIDER = "service_provider";
-    
+
+    public static final int PAYMENT_REQUEST = 0x1;
 }

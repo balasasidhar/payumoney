@@ -12,7 +12,7 @@ ext {
     gitUrl = 'https://github.com/sasidhar678/payumoney.git'
 
     libraryDescription = 'PayU Money Payment gateway Integration'
-    libraryVersion = '0.0.2'
+    libraryVersion = '0.0.3'
 
     developerId = 'sasidhar-678'
     developerName = 'Bala Sasidhar Kola'
