@@ -18,7 +18,7 @@ android {
 }
 
 dependencies {
-    compile 'com.sasidhar.smaps.payumoney:payumoney:0.0.2'
+    compile 'com.sasidhar.smaps.payumoney:payumoney:0.0.3'
 }
 </pre>
 </li>
@@ -70,13 +70,13 @@ intent.putExtra(PayUMoney_Constants.PARAMS, params);
 
 <li> Start Activity for Result
 <pre>
-startActivityForResult(intent, 01);
+startActivityForResult(intent, PayUMoney_Constants.PAYMENT_REQUEST);
 </pre>
 </li>
 
 <li> Handle response at onActivityResult
 <pre>
-if (requestCode == 01) {
+if (requestCode == PayUMoney_Constants.PAYMENT_REQUEST) {
     switch (resultCode) {
         case RESULT_OK:
             Toast.makeText(MainActivity.this, "Payment Success.", Toast.LENGTH_SHORT).show();
