@@ -9,11 +9,14 @@
 
 <li> Add Maven repository and compile dependency in <b> build.gradle </b> file.
 <pre>
-repositories {
-  maven {
-      url  "https://dl.bintray.com/sasidhar-678/maven"
+android {
+  repositories {
+    maven {
+        url  "https://dl.bintray.com/sasidhar-678/maven"
+    }
   }
 }
+
 dependencies {
     compile 'com.sasidhar.smaps.payumoney:payumoney:0.0.2'
 }
