@@ -15,7 +15,7 @@ repositories {
   }
 }
 dependencies {
-    compile 'com.sasidhar.smaps.payu:payu:0.0.5'
+    compile 'com.sasidhar.smaps.payumoney:payumoney:0.0.2'
 }
 </pre>
 </li>
